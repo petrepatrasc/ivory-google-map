@@ -11,15 +11,13 @@
 
 namespace Ivory\GoogleMap\Services\Geocoding;
 
-use Geocoder\Geocoder as BaseGeocoder;
-
 /**
  * Geocoder which describes a google map geocoder.
  *
  * @see http://code.google.com/apis/maps/documentation/javascript/reference.html#Geocoder
  * @author GeLo <geloen.eric@gmail.com>
  */
-class Geocoder extends BaseGeocoder
+class Geocoder
 {
     /**
      * {@inheritdoc}
